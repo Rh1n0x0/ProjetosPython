@@ -19,7 +19,7 @@ def cifra(strings,numero):
                 letra_para_printar = letra_convertida + numero
                 print(chr(letra_para_printar),end='')
 
-    print("\nPalavra antes da conversão: ", strings)
+    print("\nConteúdo antes da conversão: ", strings)
 
 
 letras_para_converter = input('Digite o conteúdo que quer converter para Cifra de César: ')
